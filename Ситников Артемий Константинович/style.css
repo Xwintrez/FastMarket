@@ -226,14 +226,15 @@ input {
 }
 
 .f-text {
-    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
 
 }
 
 .f-logo {
     color: green;
     font-size: 36px;
-    margin-top: -110px;
 }
 
 footer {
@@ -475,4 +476,9 @@ a:active {
     .xbox {
         width: calc((100% - 48px) / 3);
     }
+}
+
+.f-list {
+    display: flex;
+    flex-direction: column;
 }
